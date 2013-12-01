@@ -8841,12 +8841,7 @@ function()
             this.oldStyle = "") : void 0;
         }, i.prototype.bgObject = function(e)
         {
-            return {
-                url: "http://uploads.striking.ly/page/images/backgrounds/" + e + ".jpg",
-                thumbUrl: "http://uploads.striking.ly/page/images/backgrounds/" + e + "-thumb.jpg",
-                style: "stretch",
-                component: this
-            };
+            return {};
         }, i.prototype.stockImages = function(e)
         {
             var t, n, i, r, o, a, s, l, u;
@@ -9275,9 +9270,6 @@ function()
                 var t;
                 return t = $("<div></div>").addClass(e).appendTo($("#app-script-root")), n.onScriptLoad();
             });
-        }, i.prototype.addStrikinglyContainer = function(e, t)
-        {
-            return "<div class='" + t + "'>" + e + "</div>";
         }, i;
     }(Bobcat.Component), Bobcat.GoogleMapApp = function(t)
     {
@@ -9287,20 +9279,7 @@ function()
             this.initAndShow = e(this.initAndShow, this), t.location || (t.location = ""), t.zoom || (t.zoom = ""),
             i.__super__.constructor.call(this, t, this.parent);
         }
-        return n(i, t), i.prototype.initAndShow = function()
-        {
-            return $("#app-script-root .google-maps-script").length ? this.runScript() : (window.strikinglyGoogleMapsCallback = function()
-            {
-                return $(".google-maps-location-input").each(function(e, t)
-                {
-                    var n;
-                    return google.maps.places ? n = new google.maps.places.Autocomplete($(t)[0]) : void 0;
-                });
-            }, this.createScriptTag("google-maps-script", "http://maps.googleapis.com/maps/api/js?&sensor=false&libraries=places&callback=strikinglyGoogleMapsCallback"));
-        }, i.prototype.runScript = function()
-        {
-            return window.strikinglyGoogleMapsCallback();
-        }, i.prototype.done = function(e)
+        return n(i, t), i.prototype.done = function(e)
         {
             var t, n, i;
             return i = e.closest(".editor").find(".google-maps-location-input").first().val(),

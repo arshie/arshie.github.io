@@ -997,48 +997,6 @@ br.clear{
     }
     
 }
-@font-face{
-    font-family:'Brandon';
-    src:url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_bld-webfont-c9a7def34b428b667c1e7bcb85458fb1.eot);
-    src:url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_bld-webfont.eot?#iefix) format('embedded-opentype'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_bld-webfont-2582d4c96061d623fb6e1d471a5b632e.woff) format('woff'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_bld-webfont-abfe4a2a7f21aab309c9f4b2c688006d.ttf) format('truetype'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_bld-webfont.svg#BrandonGrotesqueBoldRegular) format('svg');
-    font-weight:700;
-    font-style:normal
-}
-@font-face{
-    font-family:'Brandon';
-    src:url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_reg-webfont-f9c6b8830c009ee5b49feb1134b10a53.eot);
-    src:url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_reg-webfont.eot?#iefix) format('embedded-opentype'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_reg-webfont-e5cca8c7b0d09ea090abcad76a59d7fe.woff) format('woff'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_reg-webfont-49854abce66acd974467b58de4d8127c.ttf) format('truetype'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_reg-webfont.svg#BrandonGrotesqueRegularRg) format('svg');
-    font-weight:500;
-    font-style:normal
-}
-@font-face{
-    font-family:'Brandon';
-    src:url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_light-webfont-5c9fde98d7846a4598493486f002a770.eot);
-    src:url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_light-webfont.eot?#iefix) format('embedded-opentype'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_light-webfont-3ee4c22dbc88a017b93999e685aca8bf.woff) format('woff'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_light-webfont-246683ca225943f5e6336200af3e8d5e.ttf) format('truetype'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_light-webfont.svg#BrandonGrotesqueLight) format('svg');
-    font-weight:300;
-    font-style:normal
-}
-@font-face{
-    font-family:'Brandon';
-    src:url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_med-webfont-cbe73529c11bee3232802697d98bd83e.eot);
-    src:url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_med-webfont.eot?#iefix) format('embedded-opentype'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_med-webfont-5df367fa43fed24ffe8c8cbadddae8dd.woff) format('woff'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_med-webfont-00344ba4046a8678a8d37961dd3f45f1.ttf) format('truetype'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/brandon_med-webfont.svg#BrandonGrotesqueMedium) format('svg');
-    font-weight:600;
-    font-style:normal
-}
-@font-face{
-    font-family:'Bebas Neue';
-    src:url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/BebasNeue-webfont-7aa96eab5a20fd741922da0069da3845.eot);
-    src:url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/BebasNeue-webfont.eot?#iefix) format('embedded-opentype'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/BebasNeue-webfont-274ac3d35550f7fa37dd9e00c696ce59.woff) format('woff'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/BebasNeue-webfont-7b1fabacf7042c84226107ae8b1792d3.ttf) format('truetype'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/BebasNeue-webfont.svg#BebasNeueRegular) format('svg');
-    font-weight:normal;
-    font-style:normal
-}
-@font-face{
-    font-family:'Bebas Neue';
-    src:url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/BebasNeue-webfont-7aa96eab5a20fd741922da0069da3845.eot);
-    src:url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/BebasNeue-webfont.eot?#iefix) format('embedded-opentype'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/BebasNeue-webfont-274ac3d35550f7fa37dd9e00c696ce59.woff) format('woff'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/BebasNeue-webfont-7b1fabacf7042c84226107ae8b1792d3.ttf) format('truetype'),url(//s3-strikingly-production-v1.global.ssl.fastly.net/assets/typefaces/BebasNeue-webfont.svg#BebasNeueRegular) format('svg');
-    font-weight:700;
-    font-style:normal
-}
 .bodyfont{
     font-family:'open sans',arial,sans-serif;
     font-style:normal
