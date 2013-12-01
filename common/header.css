@@ -9,7 +9,7 @@ body, div {
 .headerBar {
     background-color: #222222;
     position: absolute;
-    height: 60px;
+    height: 70px;
     width: 100%;
     color: #ffffff;
     top: 0;
@@ -42,9 +42,15 @@ body, div {
 nav {
     position: absolute;
     left: 100px;
-    top: 0;
+    top: 5px;
     display: block;
     font-size: 12px;
+
+    -webkit-transition: line-height 350ms cubic-bezier(0.86, 0, 0.07, 1);
+    -moz-transition: line-height 350ms cubic-bezier(0.86, 0, 0.07, 1);
+    -o-transition: line-height 350ms cubic-bezier(0.86, 0, 0.07, 1);
+    transition: line-height 350ms cubic-bezier(0.86, 0, 0.07, 1);
+    line-height: 60px;
 }
 
 .headerBar, .color {
@@ -55,14 +61,6 @@ nav {
     line-height: 60px;
 }
 
-
-nav {
-    -webkit-transition: line-height 350ms cubic-bezier(0.86, 0, 0.07, 1);
-    -moz-transition: line-height 350ms cubic-bezier(0.86, 0, 0.07, 1);
-    -o-transition: line-height 350ms cubic-bezier(0.86, 0, 0.07, 1);
-    transition: line-height 350ms cubic-bezier(0.86, 0, 0.07, 1);
-    line-height: 60px;
-}
 
 .navLinks a {
     color: white;
